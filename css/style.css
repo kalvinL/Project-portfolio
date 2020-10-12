@@ -1,0 +1,51 @@
+:root {
+    --backround-color: rgb(0, 247, 255);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top-container {
+    background-color: var(--backround-color);
+    height: 600px;
+}
+
+.cloud-wrapper {
+    height: 600px;
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.mountain {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+span {
+    text-decoration: underline;
+}
+
+.middle-container {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.profile img {
+    width: 100px;
+    padding: 2rem 0;
+}
+
+.skills {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.skills img {
+    width: 150px;
+}
